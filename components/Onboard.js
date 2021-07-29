@@ -73,6 +73,7 @@ function Onboard({handleDone}) {
           renderItem={renderItem}
           renderDoneButton={renderDoneButton}
           renderPrevButton={renderPrevButton}
+          renderNextButton={renderNextButton}
           showPrevButton
           data={data}
           dotStyle={styles.dotStyle}
